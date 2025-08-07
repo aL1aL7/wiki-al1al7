@@ -1,2 +1,3 @@
+# requirements for mkdocs included in mkdocs-material
 mkdocs-material
 mkdocs-minify-plugin
