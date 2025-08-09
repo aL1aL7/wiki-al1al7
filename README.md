@@ -1,5 +1,7 @@
 # Repository for my personal wiki/blog and digital notepad
 
+The website is hosted at [wiki.al1al7.de](https://wiki.al1al7.de) and serves as a personal repository for code snippets, commands, and technical notes. It is not intended for public blogging or commercial use.
+
 This website is built with [MkDocs](https://www.mkdocs.org/) and uses the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
 
 To build this site, the only requirement is to have [Python](https://www.python.org/) installed.
