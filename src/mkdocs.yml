@@ -61,6 +61,7 @@ nav:
     - Home: index.md
     - Downloads: downloads.md
     - Linux:
+        - Mail Server: linux/mailserver.md
         - LXC Container: linux/lxc.md
         - Jekyll: linux/jekyll.md
         - nftables - Firewall: linux/nftables.md
