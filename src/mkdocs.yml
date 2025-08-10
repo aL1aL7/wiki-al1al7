@@ -64,7 +64,7 @@ nav:
         - LXC Container: linux/lxc.md
         - Jekyll: linux/jekyll.md
         - nftables - Firewall: linux/nftables.md
-        - Debian - Tasks for new installs: linux/debian_install.md
+        - Debian: linux/debian_install.md
         - mdadm - Software Raid: linux/mdadm.md
         - Python - Basics: linux/python.md
         - LUKS - Encryption: linux/luks.md
