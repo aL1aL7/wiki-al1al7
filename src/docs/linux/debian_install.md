@@ -16,7 +16,7 @@ wget -O - https://download.al1al7.de/vim/mydebian.sh | bash -s
 
 ### Hints
 
-* dovecot version changes from 2.3.19 to 2.4.1
+* dovecot version changes from 2.3.19 to 2.4.1 ([configuration example for 2.4.1](/linux/mailserver))
 
 !!! danger "This update needs conversion of dovecot configuration scheme, otherwise dovecot will not start"
 
@@ -24,6 +24,9 @@ wget -O - https://download.al1al7.de/vim/mydebian.sh | bash -s
 * Folder /tmp will be a RAM-based tmpfs file system (see info in upgrade section)
 * APT sources list format will be changed to [deb822](https://wiki.debian.org/Deb822), a structured format for APT sources that improves readability and flexibility.
 * OpenSSH no longer supports DSA keys
+* Kernel 6.12.x
+
+!!! danger "This update can cause renaming of network interfaces - be sure to have access to the machine when interface is renamed."
 
 ### Upgrade workflow
 
@@ -73,6 +76,10 @@ apt autoremove
 apt list '~o'
 # check before purge the packages
 apt purge '~o'
+```
+
+```bash title="Modernize apt sources - convert to deb822 format"
+apt modernize-sources
 ```
 
 !!! info "/tmp folder is now a RAM-based tmpfs - after upgrade old files must be cleaned"
