@@ -62,6 +62,7 @@ nav:
     - Downloads: downloads.md
     - Linux:
         - Mail Server: linux/mailserver.md
+        - MariaDB: linux/mariadb.md
         - LXC Container: linux/lxc.md
         - Jekyll: linux/jekyll.md
         - nftables - Firewall: linux/nftables.md
