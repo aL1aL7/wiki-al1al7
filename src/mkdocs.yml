@@ -78,7 +78,6 @@ nav:
         - Proxmox Backup Server - pbs: linux/pbs.md
     - Windows:
         - MS Exchange: windows/ms_exchange.md
-        - DISM - Basics: windows/dism.md
         - CLI - Snippets: windows/win_cli.md
     - About/Imprint: imprint.md
 
