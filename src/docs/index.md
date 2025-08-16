@@ -10,21 +10,21 @@
 
     [:octicons-arrow-right-24: Goto Downloads](/downloads/)
 
--   :simple-linux:{ .lg .middle } [__Linux__](/linux/lxc/)
+-   :simple-linux:{ .lg .middle } [__Linux__](/linux/mailserver/)
 
     ---
     Code snippets and configuration samples for various services and programs on the Linux operating system
 
-    [:octicons-arrow-right-24: Linux](/linux/lxc/)
+    [:octicons-arrow-right-24: Linux](/linux/mailserver/)
 
 
--   :material-microsoft-windows:{ .lg .middle } [__Windows__](/windows/dism/)
+-   :material-microsoft-windows:{ .lg .middle } [__Windows__](/windows/ms_exchange/)
 
     ---
 
     Code snippets and sticky notes for windows operating system
 
-    [:octicons-arrow-right-24: Windows](/windows/dism/)
+    [:octicons-arrow-right-24: Windows](/windows/ms_exchange/)
 
 
 -   :octicons-info-16:{ .lg .middle } [__About/Imprint__](/imprint/)
