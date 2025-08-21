@@ -76,6 +76,7 @@ nav:
         - LVM2 - Logical Volume Manager: linux/lvm2.md
         - iSCSI - Basics: linux/iscsi.md
         - Proxmox Backup Server - pbs: linux/pbs.md
+        - Proxmox Virtual Environment - pve: linux/pve.md
     - Windows:
         - MS Exchange: windows/ms_exchange.md
         - CLI - Snippets: windows/win_cli.md

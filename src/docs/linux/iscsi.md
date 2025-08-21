@@ -12,6 +12,10 @@ iscsiadm -m node -T iqn.2024-11.local.... -p XXX.XXX.XXX.XXX:3260 --login
 iscsiadm -m session
 ```
 
+```sh title="Check iSCSI sessions including LUINS and block devices"
+iscsiadm -m session -P3
+```
+
 ```sh title="Logout of iSCSI session"
 iscsiadm -m node -T iqn.2024-05.local.... -p XXX.XXX.XXX.XXX:3260 -u
 ```
