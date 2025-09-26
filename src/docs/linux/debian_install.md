@@ -87,5 +87,6 @@ apt modernize-sources
 ```bash title="Bind mount to make old /tmp files visible"
 mount --bind / /mnt
 # delete old files
-rm -rf /mnt/tmp/*
+rm -rf /mnt/tmp/.*
+umount /mnt
 ```
