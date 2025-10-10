@@ -12,6 +12,27 @@ This includes following steps:
 wget -O - https://download.al1al7.de/vim/mydebian.sh | bash -s
 ```
 
+## Configure polkit for group netdev
+This configuration is to allow shutdown, reboot and network configuration in KDE for RDP sessions
+
+```bash title="Create polkit rule for netdev group"
+cat <<EOF > /etc/polkit-1/rules.d/50-netdev.rules
+polkit.addRule(function(action, subject) {
+        if (action.id.indexOf("org.freedesktop.NetworkManager.") == 0 && subject.isInGroup("netdev")) {
+                return polkit.Result.YES;
+        }
+});
+
+polkit.addRule(function(action, subject) {
+        if ( subject.isInGroup("netdev") && ((action.id == "org.freedesktop.login1.reboot" ||
+             action.id == "org.freedesktop.login1.reboot-multiple-sessions" ||
+             action.id == "org.freedesktop.login1.power-off" ||
+             action.id == "org.freedesktop.login1.power-off-multiple-sessions")) ) {
+                return polkit.Result.YES;
+        }
+});
+EOF
+```
 ## Upgrade Debian bookworm (12) to trixie (13)
 
 ### Hints
