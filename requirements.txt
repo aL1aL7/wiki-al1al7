@@ -1,3 +1,3 @@
-# mkdocs depends on mkdocs-material
-mkdocs-material
-mkdocs-minify-plugin
+# for now zensical is all you need
+zensical
+

@@ -1,6 +1,7 @@
 /*.code-workspace
 /.cache/
 /src/.cache/
+/src/site/
 /venv/
 /website/
 
