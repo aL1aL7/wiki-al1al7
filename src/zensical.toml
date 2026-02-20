@@ -1,8 +1,7 @@
 [project]
     site_name = "wiki.aL1aL7.de"
     copyright = """
-        Copyright &copy; 2026 aL1aL7 -
-        <a href="#__consent">Change cookie settings</a>
+        Copyright &copy; 2026 aL1aL7
     """
     repo_url = "https://github.com/aL1aL7/wiki-al1al7"
     repo_name = "aL1aL7/wiki-al1al7"
