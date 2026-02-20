@@ -1,6 +1,9 @@
 [project]
     site_name = "wiki.aL1aL7.de"
-    copyright = "Copyright &copy; 2026 aL1aL7"
+    copyright = """
+        Copyright &copy; 2026 aL1aL7 -
+        <a href="#__consent">Change cookie settings</a>
+    """
     repo_url = "https://github.com/aL1aL7/wiki-al1al7"
     repo_name = "aL1aL7/wiki-al1al7"
     site_dir = "site"
@@ -30,15 +33,16 @@
             { "MS Exchange" = "windows/ms_exchange.md" },
             { "CLI - Snippets" = "windows/win_cli.md" }
         ]},
-        { "About/Imprint" = "imprint.md" }
+        { "About/Imprint" = "imprint.md" },
+        { "Privacy Policy" = "privacy.md" }
     ]
 
 
 [project.theme]
     language = "en"
     font = false
-    logo = "assets/images/logo-penguin-300px.png"
-    favicon = "assets/images/logo-penguin-300px.png"
+    logo = "assets/images/kruemmel_al1al7_600x600.png"
+    favicon = "assets/images/kruemmel_al1al7_600x600.png"
     custom_dir = "overrides"
     features = [
         "content.code.copy",
@@ -60,8 +64,7 @@
     scheme = "slate"
     toggle.icon = "lucide/sun"
     toggle.name = "Switch to light mode"
-    primary = "brown"
-    accent = "green"
+    accent = "orange"
 
 [[project.theme.palette]]
     media = "(prefers-color-scheme: light)"
@@ -72,7 +75,7 @@
     accent = "indigo"
 
 [project.theme.icon]
-    repo = "fontawesome/brands/git-alt"
+    repo = "fontawesome/brands/github"
 
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.attr_list]
@@ -98,3 +101,18 @@
 [project.markdown_extensions.pymdownx.snippets]
 [project.markdown_extensions.pymdownx.tasklist]
     custom_checkbox = true
+
+[project.extra.consent]
+    title = "Cookie consent"
+    description = """
+        We use cookies to recognize your repeated visits and preferences, as well
+        as to measure the effectiveness of our documentation and whether users
+        find what they're searching for. With your consent, you're helping us to
+        make our documentation better.
+    """ 
+    actions = [
+        "accept",
+        "manage",
+        "reject",
+    ]
+

@@ -1,0 +1,21 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+
+<style>
+    .tx-hero {
+        color: var(--md-primary-bg-color);
+        justify-content: center;
+    }
+
+    .tx-hero__image {
+        width:100% !important;
+        height:auto;
+    }
+</style>
+
+<div class="tx-hero__image">
+    <img src="/assets/images/intro-image-avatar-2560.jpg" draggable="false" class="tx-hero__image">
+</div>
+ 
+{% endblock %}

@@ -2,7 +2,7 @@
 
 Welcome to my personal wiki/blog and digital notepad.
 
-![penguin_300px.png](assets/images/logo-penguin-300px.png)
+![penguin_300px.png](assets/images/kruemmel_al1al7_600x600.png)
 
 This site is a private project, serving as my own notepad for useful code snippets, commands, and technical notes. Instead of searching for solutions repeatedly online, I collect and organize them here for quick access. In the future, there may be some private posts, but currently, this wiki is not intended for public blogging or commercial use.
 

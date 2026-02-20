@@ -1,5 +1,8 @@
+---
+template: intro.html
+---
 
-# Welcome to wiki.aL1aL7.de
+# 
 
 <div class="grid cards" markdown>
 
