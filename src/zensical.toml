@@ -101,7 +101,3 @@
 [project.markdown_extensions.pymdownx.tasklist]
     custom_checkbox = true
 
-[project.extra.consent.cookies]
-github.name = "Github"
-github.checked = false
-
