@@ -12,6 +12,12 @@
         width:100% !important;
         height:auto;
     }
+
+    .hero-intro-content a:link, .hero-intro-content a:visited, .hero-intro-content a:hover, .hero-intro-content a:active
+    {    
+        color: var(--md-accent-fg-color);
+    }
+
 </style>
 
 <div class="tx-hero__image">
@@ -19,3 +25,10 @@
 </div>
  
 {% endblock %}
+
+{% block content %}
+<section class="hero-intro-content">
+{{ super() }}
+</section>
+{% endblock %}
+
